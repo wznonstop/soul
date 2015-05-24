@@ -1,0 +1,168 @@
+body{
+	background-color:#EED8B0;
+	background-image: url("soulbg.jpg");
+	background-repeat: repeat-x;
+}
+
+/*head*/
+#headbg{
+	background-image: url("soulhd.jpg");
+	background-repeat: no-repeat;
+	/*background-position: 50%;*/
+	/*left: 50%;*/
+	margin: 0 auto;
+	width: 1348px;
+	height: 665px;
+	position: relative;
+}
+
+#tag{
+	background-image: url("soul.png");
+	position: absolute;
+	width: 381px;
+	height: 120px;
+	left: 36px;
+	top: 300px;
+}
+
+#abstr{
+	position: absolute;
+	top: 430px;
+	left: 252px;
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+	line-height: 1.5;
+	text-align: center;
+}
+
+#topic{
+	position: absolute;
+	top: 348px;
+	left: 536px;
+	overflow: hidden;
+}
+
+#topic p{
+	margin-top: 12px;
+	/*position: absolute;
+	left: 536px;*/
+	width: 216px;
+	height: 58px;
+	background-color: #D2D2D2;
+	border-radius: 19px;
+	font-size: 36px;
+	font-family: "Microsoft YaHei";
+	line-height: 1.5;
+	text-align: center;
+}
+
+#topic p.selected{
+	background-color: #D31516;
+}
+
+#topic p:hover{
+	background-color: #FF7172;
+	cursor: pointer;
+}
+
+/*head*/
+
+/*main*/
+.list{
+	background-image: url("border.png");
+	background-repeat: no-repeat;
+	width: 1197px;
+	height: 425px;
+	position: relative;
+	margin: 0 auto;
+	border:2px solid #000;
+	margin-bottom: 54px;
+}
+
+.arr{
+	width: 76px;
+	height: 70px;
+	display: inline-block;
+	position: absolute;
+	top: 176px;
+	z-index: 5;
+}
+
+.leftarr{
+	background-image: url("leftarr.png");
+	left: -32px;
+}
+
+.rightarr{
+	background-image: url("rightarr.png");
+	right: -32px;
+}
+
+.roll{
+	position: relative;
+	width: 1197px;
+	height: 425px;
+	overflow: hidden;
+}
+
+.roll ul{
+	position: absolute;
+	overflow: hidden;
+}
+
+.listtit{
+	/*border:1px solid red;*/
+	margin-top: 36px;
+	margin-left: 43px;
+	font-size: 30px;
+	font-family: "Microsoft YaHei";
+}
+
+.roll ul h3{
+	text-align: center;
+}
+
+.roll li{
+	/*border:1px solid yellow;*/
+	/*background-color: pink;*/
+	width: 1197px;
+	height: 302px;
+	float: left;
+	position: relative;
+}
+
+.roll li img{
+	margin-left: 60px;
+	margin-top: 15px;
+	float: left;
+}
+
+.roll li p{
+	/*border:1px solid blue;*/
+	text-align: left;
+	width: 630px;
+	float: right;
+	margin-right: 80px;
+	margin-top: 30px;
+	table-layout: fixed;
+	word-wrap: break-word;
+	word-break: break-all;
+	font-size: 20px;
+	line-height: 1.8;
+	font-family: "Microsoft YaHei";
+}
+
+
+/*main*/
+
+/*页脚*/
+#footer{
+	text-align: center;
+	line-height: 2.5;
+	padding: 30px 0 50px 0;
+	margin: 0 auto;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
